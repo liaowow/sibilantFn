@@ -4,8 +4,10 @@
 
 ;; returns an ordered list of all the tasks to run.
 
-(def determine-order (tasks, chosen-tasks)
-
+(def determine-order (tasks, subset)
+  (var ordered-tasks [])
+  (each sub-task subset
+    (console.log sub-task) )
 null)
 
 ;; Examples:
